@@ -19,6 +19,6 @@
 
 = link_to 'Edit', edit_movie_path(@movie)
 %br
-= link_to 'movie from same director', same_director_path(director: @movie.director)
+= link_to 'movie from same director', search_same_director_path(@movie)
 = button_to 'Delete', movie_path(@movie), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-primary'
 = link_to 'Back to movie list', movies_path

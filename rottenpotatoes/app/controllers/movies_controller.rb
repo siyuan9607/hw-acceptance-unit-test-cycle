@@ -33,16 +33,14 @@ class MoviesController < ApplicationController
     @movies = Movie.where(rating: @selected_ratings.keys).order(ordering)
   end
   
- def same_director
-     @movie = Movie.find(params[:id])
-     directors = @movie.director
-     if directors.blank?
-       flash[:notice] = "#{@movie.title} does not include a movie director."
+ def find_same_director
+     id = params[:id]
+     @movies,error = Movie.same_director(id)
+     if error
+       flash[:notice] = "this movie does not include a movie director."
        redirect_to movies_path
-     else
-       @movies = Movie.where(director: directors)
      end
-end
+ end
 
   def new
     # default: render 'new' template
