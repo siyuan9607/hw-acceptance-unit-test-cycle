@@ -1,0 +1,30 @@
+
+An error occurred while loading ./spec/movie_controller_spec.rb.
+Failure/Error: load file
+
+LoadError:
+  cannot load such file -- /home/ec2-user/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/spec/spec/movie_controller_spec.rb
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1954:in `load'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1954:in `load_spec_file_handling_errors'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1496:in `block in load_spec_files'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1494:in `each'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1494:in `load_spec_files'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:100:in `setup'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:86:in `run'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.7.1/exe/rspec:4:in `<top (required)>'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/rspec:23:in `load'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/rspec:23:in `<main>'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:24:in `eval'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:24:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+
+Finished in 0.00026 seconds (files took 0.14462 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
